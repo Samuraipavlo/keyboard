@@ -2,8 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	user-select: none;
-	-webkit-user-drag: none;
 }
 
 .container {
@@ -13,10 +11,6 @@
 	grid-template-rows: repeat(6, 1fr);
 	grid-column-gap: 5px;
 	grid-row-gap: 5px;
-}
-
-body{
-	padding: 25vh 5vh 0 5vh;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 2; background: darkgrey;}
@@ -123,5 +117,8 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	cursor: pointer;
+	border-radius: 20px 20px 20px 20px;
+	background: rgb(157,158,161);
+    background: linear-gradient(90deg, rgba(157,158,161,1) 2%, rgba(177,185,181,1) 83%);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
