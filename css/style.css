@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; background: darkgrey;}
+.div2 { grid-area: 1 / 2 / 2 / 3; background: darkgrey;;}
+.div3 { grid-area: 1 / 3 / 2 / 4; background: darkgrey;;}
+.div4 { grid-area: 1 / 4 / 2 / 5; background: darkgrey;;}
+.div5 { grid-area: 1 / 5 / 2 / 6; background: darkgrey;}
+.div6 { grid-area: 1 / 6 / 2 / 7; background: darkgrey;}
+.div7 { grid-area: 1 / 7 / 2 / 8; background: darkgrey;}
+.div8 { grid-area: 1 / 8 / 2 / 9; background: darkgrey;}
+.div9 { grid-area: 1 / 9 / 2 / 10; background: darkgrey;}
+.div10 { grid-area: 1 / 10 / 2 / 11; background: darkgrey;}
+.div11 { grid-area: 1 / 11 / 2 / 12; background: darkgrey;}
+.div12 { grid-area: 1 / 12 / 2 / 13; background: darkgrey;}
+.div13 { grid-area: 1 / 13 / 2 / 14; background: darkgrey;}
+.div14 { grid-area: 1 / 14 / 2 / 15; background: darkgrey;}
+.div15 { grid-area: 1 / 15 / 2 / 16; background: darkgrey;}
+.div16 { grid-area: 1 / 16 / 2 / 17; background: darkgrey;}
+.div17 { grid-area: 1 / 17 / 2 / 18; background: darkgrey;}
+.div18 { grid-area: 1 / 18 / 2 / 19; background: darkgrey;}
+.div19 { grid-area: 1 / 19 / 2 / 20; background: darkgrey;}
+.div20 { grid-area: 1 / 20 / 2 / 21; background: darkgrey;}
+.div21 { grid-area: 2 / 15 / 3 / 18; background: darkgrey;}
+.div22 { grid-area: 2 / 1 / 3 / 2; background: darkgrey;}
+.div23 { grid-area: 2 / 2 / 3 / 3; background: darkgrey;}
+.div24 { grid-area: 2 / 3 / 3 / 4; background: darkgrey;}
+.div25 { grid-area: 2 / 4 / 3 / 5; background: darkgrey;}
+.div26 { grid-area: 2 / 5 / 3 / 6; background: darkgrey;}
+.div27 { grid-area: 2 / 6 / 3 / 7; background: darkgrey;}
+.div28 { grid-area: 2 / 7 / 3 / 8; background: darkgrey;}
+.div29 { grid-area: 2 / 8 / 3 / 9; background: darkgrey;}
+.div30 { grid-area: 2 / 9 / 3 / 10; background: darkgrey;}
+.div31 { grid-area: 2 / 10 / 3 / 11; background: darkgrey;}
+.div32 { grid-area: 2 / 11 / 3 / 12; background: darkgrey;}
+.div33 { grid-area: 2 / 12 / 3 / 13; background: darkgrey;}
+.div34 { grid-area: 2 / 13 / 3 / 15; background: darkgrey;}
+.div36 { grid-area: 2 / 18 / 3 / 19; background: darkgrey;}
+.div37 { grid-area: 2 / 19 / 3 / 20; background: darkgrey;}
+.div38 { grid-area: 2 / 20 / 3 / 21; background: darkgrey;}
+.div39 { grid-area: 3 / 1 / 4 / 3; background: darkgrey;}
+.div40 { grid-area: 3 / 15 / 4 / 18; background: darkgrey;}
+.div41 { grid-area: 3 / 3 / 4 / 4; background: darkgrey;}
+.div42 { grid-area: 3 / 4 / 4 / 5; background: darkgrey;}
+.div43 { grid-area: 3 / 5 / 4 / 6; background: darkgrey;}
+.div44 { grid-area: 3 / 6 / 4 / 7; background: darkgrey;}
+.div45 { grid-area: 3 / 7 / 4 / 8; background: darkgrey;}
+.div46 { grid-area: 3 / 8 / 4 / 9; background: darkgrey;}
+.div47 { grid-area: 3 / 9 / 4 / 10; background: darkgrey;}
+.div48 { grid-area: 3 / 10 / 4 / 11; background: darkgrey;}
+.div49 { grid-area: 3 / 11 / 4 / 12; background: darkgrey;}
+.div50 { grid-area: 3 / 12 / 4 / 13; background: darkgrey;}
+.div51 { grid-area: 3 / 13 / 4 / 14; background: darkgrey;}
+.div52 { grid-area: 3 / 14 / 4 / 15; background: darkgrey;}
+.div53 { grid-area: 3 / 18 / 4 / 19; background: darkgrey;}
+.div54 { grid-area: 3 / 19 / 4 / 20; background: darkgrey;}
+.div55 { grid-area: 3 / 20 / 4 / 21; background: darkgrey;}
+.div56 { grid-area: 4 / 1 / 5 / 4; background: darkgrey;}
+.div57 { grid-area: 4 / 15 / 5 / 18; background: darkgrey;}
+.div58 { grid-area: 4 / 4 / 5 / 5; background: darkgrey;}
+.div59 { grid-area: 4 / 5 / 5 / 6; background: darkgrey;}
+.div60 { grid-area: 4 / 6 / 5 / 7; background: darkgrey;}
+.div61 { grid-area: 4 / 7 / 5 / 8; background: darkgrey;}
+.div62 { grid-area: 4 / 8 / 5 / 9; background: darkgrey;}
+.div63 { grid-area: 4 / 9 / 5 / 10; background: darkgrey;}
+.div64 { grid-area: 4 / 10 / 5 / 11; background: darkgrey;}
+.div65 { grid-area: 4 / 11 / 5 / 12; background: darkgrey;}
+.div66 { grid-area: 4 / 12 / 5 / 13; background: darkgrey;}
+.div67 { grid-area: 4 / 13 / 5 / 14; background: darkgrey;}
+.div68 { grid-area: 4 / 14 / 5 / 15; background: darkgrey;}
+.div69 { grid-area: 4 / 18 / 5 / 19; background: darkgrey;}
+.div70 { grid-area: 4 / 19 / 5 / 20; background: darkgrey;}
+.div71 { grid-area: 4 / 20 / 5 / 21; background: darkgrey;}
+.div72 { grid-area: 5 / 20 / 6 / 21; background: darkgrey;}
+.div73 { grid-area: 5 / 19 / 6 / 20; background: darkgrey;}
+.div74 { grid-area: 5 / 18 / 6 / 19; background: darkgrey;}
+.div75 { grid-area: 5 / 17 / 6 / 18; background: darkgrey;}
+.div76 { grid-area: 5 / 14 / 6 / 17; background: darkgrey;}
+.div77 { grid-area: 5 / 1 / 6 / 4; background: darkgrey;}
+.div78 { grid-area: 5 / 4 / 6 / 5; background: darkgrey;}
+.div79 { grid-area: 5 / 5 / 6 / 6; background: darkgrey;}
+.div80 { grid-area: 5 / 6 / 6 / 7; background: darkgrey;}
+.div81 { grid-area: 5 / 7 / 6 / 8; background: darkgrey;}
+.div82 { grid-area: 5 / 8 / 6 / 9; background: darkgrey;}
+.div83 { grid-area: 5 / 9 / 6 / 10; background: darkgrey;}
+.div84 { grid-area: 5 / 10 / 6 / 11; background: darkgrey;}
+.div85 { grid-area: 5 / 11 / 6 / 12; background: darkgrey;}
+.div86 { grid-area: 5 / 12 / 6 / 13; background: darkgrey;}
+.div87 { grid-area: 5 / 13 / 6 / 14; background: darkgrey;}
+.div88 { grid-area: 6 / 1 / 7 / 2; background: darkgrey;}
+.div89 { grid-area: 6 / 2 / 7 / 3; background: darkgrey;}
+.div90 { grid-area: 6 / 3 / 7 / 4; background: darkgrey;}
+.div91 { grid-area: 6 / 4 / 7 / 5; background: darkgrey;}
+.div92 { grid-area: 6 / 20 / 7 / 21; background: darkgrey;}
+.div93 { grid-area: 6 / 19 / 7 / 20; background: darkgrey;}
+.div94 { grid-area: 6 / 18 / 7 / 19; background: darkgrey;}
+.div95 { grid-area: 6 / 17 / 7 / 18; background: darkgrey;}
+.div96 { grid-area: 6 / 16 / 7 / 17; background: darkgrey;}
+.div97 { grid-area: 6 / 14 / 7 / 16; background: darkgrey;}
+.div98 { grid-area: 6 / 13 / 7 / 14; background: darkgrey;}
+.div99 { grid-area: 6 / 12 / 7 / 13; background: darkgrey;}
+.div100 { grid-area: 6 / 5 / 7 / 12; background: darkgrey;}
+
+.container div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
