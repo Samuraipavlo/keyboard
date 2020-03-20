@@ -1,111 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<div class="container">
-		<div class="div1">esc</div>
-		<div class="div2">f1</div>
-		<div class="div3">f2</div>
-		<div class="div4">f3</div>
-		<div class="div5">f4</div>
-		<div class="div6">f5</div>
-		<div class="div7">f6</div>
-		<div class="div8">f7</div>
-		<div class="div9">f8</div>
-		<div class="div10">f9</div>
-		<div class="div11">f10</div>
-		<div class="div12">f11</div>
-		<div class="div13">f12</div>
-		<div class="div14">paus break</div>
-		<div class="div15">prt sc</div>
-		<div class="div16">insert</div>
-		<div class="div17">delete</div>
-		<div class="div18">*</div>
-		<div class="div19">/</div>
-		<div class="div20">off</div>
-		<div class="div21">backspace</div>
-		<div class="div22">~ `</div>
-		<div class="div23">1</div>
-		<div class="div24">2</div>
-		<div class="div25">4</div>
-		<div class="div26">4</div>
-		<div class="div27">5</div>
-		<div class="div28">6</div>
-		<div class="div29">7</div>
-		<div class="div30">8</div>
-		<div class="div31">9</div>
-		<div class="div32">0</div>
-		<div class="div33">-</div>
-		<div class="div34">= +</div>
-		<div class="div36">+</div>
-		<div class="div37">-</div>
-		<div class="div38">num Ik</div>
-		<div class="div39">Tab</div>
-		<div class="div40">\</div>
-		<div class="div41">Q</div>
-		<div class="div42">W</div>
-		<div class="div43">E</div>
-		<div class="div44">R</div>
-		<div class="div45">T</div>
-		<div class="div46">Y</div>
-		<div class="div47">U</div>
-		<div class="div48">I</div>
-		<div class="div49">O</div>
-		<div class="div50">P</div>
-		<div class="div51">{</div>
-		<div class="div52">}</div>
-		<div class="div53">7</div>
-		<div class="div54">8</div>
-		<div class="div55">9</div>
-		<div class="div56">Caps lock</div>
-		<div class="div57">Enter</div>
-		<div class="div58">A</div>
-		<div class="div59">S</div>
-		<div class="div60">D</div>
-		<div class="div61">F</div>
-		<div class="div62">G</div>
-		<div class="div63">H</div>
-		<div class="div64">J</div>
-		<div class="div65">K</div>
-		<div class="div66">L</div>
-		<div class="div67">;</div>
-		<div class="div68">'</div>
-		<div class="div69">4</div>
-		<div class="div70">5</div>
-		<div class="div71">6</div>
-		<div class="div72">3</div>
-		<div class="div73">2</div>
-		<div class="div74">1</div>
-		<div class="div75">↑</div>
-		<div class="div76">Shift</div>
-		<div class="div77">Shift</div>
-		<div class="div78">Z</div>
-		<div class="div79">X</div>
-		<div class="div80">C</div>
-		<div class="div81">V</div>
-		<div class="div82">B</div>
-		<div class="div83">N</div>
-		<div class="div84">M</div>
-		<div class="div85">,</div>
-		<div class="div86">.</div>
-		<div class="div87">/</div>
-		<div class="div88">ctrl</div>
-		<div class="div89">fn</div>
-		<div class="div90">windows</div>
-		<div class="div91">alt</div>
-		<div class="div92">.</div>
-		<div class="div93">0</div>
-		<div class="div94"> → </div>
-		<div class="div95">↓</div>
-		<div class="div96"> ← </div>
-		<div class="div97">ctrl</div>
-		<div class="div98"></div>
-		<div class="div99">alt</div>
-		<div class="div100">space</div>
+		<div class="div1" onclick="nameButton(27)">Esc</div>
+		<div class="div2" onclick="nameButton(112)">F1</div>
+		<div class="div3" onclick="nameButton(113)">F2</div>
+		<div class="div4" onclick="nameButton(114)">F3</div>
+		<div class="div5" onclick="nameButton(115)">F4</div>
+		<div class="div6" onclick="nameButton(116)">F5</div>
+		<div class="div7" onclick="nameButton(117)">F6</div>
+		<div class="div8" onclick="nameButton(118)">F7</div>
+		<div class="div9" onclick="nameButton(119)">F8</div>
+		<div class="div10" onclick="nameButton(120)">F9</div>
+		<div class="div11" onclick="nameButton(121)">F10</div>
+		<div class="div12" onclick="nameButton(122)">F11</div>
+		<div class="div13" onclick="nameButton(123)">F12</div>
+		<div class="div14" onclick="nameButton(43)">Pause Break</div>
+		<div class="div15" onclick="nameButton(44)">Prt Sc</div>
+		<div class="div16" onclick="nameButton(45)">Insert</div>
+		<div class="div17" onclick="nameButton(46)">Delete</div>
+		<div class="div18" onclick="nameButton(106)">*</div>
+		<div class="div19" onclick="nameButton(110)">/</div>
+		<div class="div20" onclick="nameButton('Павло')">Off</div>
+		<div class="div21" onclick="nameButton(8)">Backspace</div>
+		<div class="div22" onclick="nameButton(192)">~ `</div>
+		<div class="div23" onclick="nameButton(49)">1</div>
+		<div class="div24" onclick="nameButton(50)">2</div>
+		<div class="div25" onclick="nameButton(51)">4</div>
+		<div class="div26" onclick="nameButton(52)">4</div>
+		<div class="div27" onclick="nameButton(53)">5</div>
+		<div class="div28" onclick="nameButton(54)">6</div>
+		<div class="div29" onclick="nameButton(55)">7</div>
+		<div class="div30" onclick="nameButton(56)">8</div>
+		<div class="div31" onclick="nameButton(57)">9</div>
+		<div class="div32" onclick="nameButton(48)">0</div>
+		<div class="div33" onclick="nameButton(189)">-</div>
+		<div class="div34" onclick="nameButton(187)">= +</div>
+		<div class="div36" onclick="nameButton(107)">+</div>
+		<div class="div37" onclick="nameButton(108)">-</div>
+		<div class="div38" onclick="nameButton('NUM LOCK')">Num Lk</div>
+		<div class="div39" onclick="nameButton(9)">Tab</div>
+		<div class="div40" onclick="nameButton(220)">\|</div>
+		<div class="div41" onclick="nameButton(81)">Q</div>
+		<div class="div42" onclick="nameButton(87)">W</div>
+		<div class="div43" onclick="nameButton(69)">E</div>
+		<div class="div44" onclick="nameButton(82)">R</div>
+		<div class="div45" onclick="nameButton(84)">T</div>
+		<div class="div46" onclick="nameButton(89)">Y</div>
+		<div class="div47" onclick="nameButton(85)">U</div>
+		<div class="div48" onclick="nameButton(73)">I</div>
+		<div class="div49" onclick="nameButton(79)">O</div>
+		<div class="div50" onclick="nameButton(80)">P</div>
+		<div class="div51" onclick="nameButton(219)">{</div>
+		<div class="div52" onclick="nameButton(221)">}</div>
+		<div class="div53" onclick="nameButton(103)">7</div>
+		<div class="div54" onclick="nameButton(104)">8</div>
+		<div class="div55" onclick="nameButton(105)">9</div>
+		<div class="div56" onclick="nameButton(20)">Caps lock</div>
+		<div class="div57" onclick="nameButton(13)">Enter</div>
+		<div class="div58" onclick="nameButton(65)">A</div>
+		<div class="div59" onclick="nameButton(83)">S</div>
+		<div class="div60" onclick="nameButton(68)">D</div>
+		<div class="div61" onclick="nameButton(70)">F</div>
+		<div class="div62" onclick="nameButton(71)">G</div>
+		<div class="div63" onclick="nameButton(72)">H</div>
+		<div class="div64" onclick="nameButton(74)">J</div>
+		<div class="div65" onclick="nameButton(75)">K</div>
+		<div class="div66" onclick="nameButton(76)">L</div>
+		<div class="div67" onclick="nameButton(186)">:;</div>
+		<div class="div68" onclick="nameButton(222)">""'</div>
+		<div class="div69" onclick="nameButton(100)">4</div>
+		<div class="div70" onclick="nameButton(101)">5</div>
+		<div class="div71" onclick="nameButton(102)">6</div>
+		<div class="div72" onclick="nameButton(99)">3</div>
+		<div class="div73" onclick="nameButton(98)">2</div>
+		<div class="div74" onclick="nameButton(97)">1</div>
+		<div class="div75" onclick="nameButton(54)">↑</div>
+		<div class="div76" onclick="nameButton(16)">Shift</div>
+		<div class="div77" onclick="nameButton(16)">Shift</div>
+		<div class="div78" onclick="nameButton(90)">Z</div>
+		<div class="div79" onclick="nameButton(88)">X</div>
+		<div class="div80" onclick="nameButton(67)">C</div>
+		<div class="div81" onclick="nameButton(86)">V</div>
+		<div class="div82" onclick="nameButton(66)">B</div>
+		<div class="div83" onclick="nameButton(78)">N</div>
+		<div class="div84" onclick="nameButton(77)">M</div>
+		<div class="div85" onclick="nameButton(188)"><,</div>
+		<div class="div86" onclick="nameButton(190)">>.</div>
+		<div class="div87" onclick="nameButton(191)">?/</div>
+		<div class="div88" onclick="nameButton(17)">Ctrl</div>
+		<div class="div89" onclick="nameButton('Кнопка клавіатури (номеру немає)')">Fn</div>
+		<div class="div90" onclick="nameButton(91)">Windows</div>
+		<div class="div91" onclick="nameButton(18)">Alt</div>
+		<div class="div92" onclick="nameButton(109)">.</div>
+		<div class="div93" onclick="nameButton(96)">0</div>
+		<div class="div94" onclick="nameButton(39)"> → </div>
+		<div class="div95" onclick="nameButton(40)">↓</div>
+		<div class="div96" onclick="nameButton(37)"> ← </div>
+		<div class="div97" onclick="nameButton(17)">Ctrl</div>
+		<div class="div98" onclick="nameButton(92)">Windows</div>
+		<div class="div99" onclick="nameButton(18)">Alt</div>
+		<div class="div100" onclick="nameButton(32)">Space</div>
 	</div>
+
+	<!-- Link to JS file -->
+	<script src="./js/main.js"></script>
 </body>
+
 </html>
